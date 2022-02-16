@@ -1,0 +1,31 @@
+.image1{
+  border-radius: 50%;
+  width:120px;
+  height:125px;
+}
+
+.image2{
+  width:190px;
+  height:125px;
+}
+
+.image3{
+  width:130px;
+  height:125px;
+}
+
+.image4{
+  width:150px;
+  height:125px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media print {
+  .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
